@@ -1,0 +1,11 @@
+.vve-tree-node {
+  width: 100%;
+  .vve-op {
+    display: none;
+  }
+  &:hover {
+    .vve-op {
+      display: inline;
+    }
+  }
+}
